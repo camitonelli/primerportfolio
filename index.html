@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <title>camila</title>
+    <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <link rel="stylesheet" href="css/estilo.css">
+    <link rel="stylesheet" href="css/resets.css">
+    <link rel="stylesheet" href="css/nav.css">
+    <link href="https://fonts.googleapis.com/css?family=Poppins:100,200,300,400,500,600,700&display=swap" rel="stylesheet">
+
+    <link href="https://fonts.googleapis.com/css?family=IBM+Plex+Mono:300,300i,400,600,700&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/fancyapps/fancybox@3.5.7/dist/jquery.fancybox.min.css" />
+    <link href="css/fotorama.css" rel="stylesheet">
+</head>
+
+<body>
+
+    <div id="container1">
+        <header>
+            <nav class="header">
+                <input class="menu-btn" type="checkbox" id="menu-btn" />
+                <label class="menu-icon" for="menu-btn"><span class="navicon"></span></label>
+                <ul class="menu">
+                    <li><a href="#sobremi">sobre mi</a></li>
+                    <li><a href="#portfolio">portfolio</a></li>
+                    <li><a href="#contacto">contacto</a></li>
+                    <li><a href="#redes">redes</a></li>
+                </ul>
+            </nav>
+            <h1>camila.<span>&#160;</span></h1>
+            <h2>fotógrafa y diseñadora multimedial</h2>
+        </header>
+    </div>
+
+
+
+    <div id="container">
+        <section>
+            <article class="sobremi">
+                <div class="flexy">
+                    <h3 class="datos" id="sobremi">sobre mí</h3>
+                    <div class="flexy2">
+                        <img class="img-fluid" src="img/cara.jpg" alt="mi cara">
+                        <p class="textosobremi"> Mi nombre es Camila Tonelli, tengo 21 años y vivo en Buenos Aires, Argentina. Estoy en mi primer año de Diseño Multimedial y hace muchos años que hago fotografía de forma no profesional; tengo conocimientos de diseño web, edición de video, ilustración tradicional y digital y filmación.</p>
+                    </div>
+                </div>
+                <div class="cv">
+                    <a href="#" class="button">mi curriculum vitae</a>
+                </div>
+
+            </article>
+        </section>
+    </div>
+
+
+
+    <section class="portfolio">
+
+
+        <h3 id="portfolio"> portfolio</h3>
+        <div class="fondo1">
+            <article>
+                <h4>fotografía</h4>
+                <div class="container flexboxy">
+                    <div class="flex1">
+                        <a data-fancybox="gallery" href="img/grid1.jpg"><img class="img-fluid grid" src="img/mini1.jpg" alt="1"></a>
+                        <a data-fancybox="gallery" href="img/grid2.jpg"><img class="img-fluid grid" src="img/mini2.jpg" alt="2"></a>
+                        <a data-fancybox="gallery" href="img/grid3.jpg"><img class="img-fluid grid" src="img/mini3.jpg" alt="3"></a>
+                    </div>
+                    <div class="flex1">
+                        <a data-fancybox="gallery" href="img/grid4.jpg"><img class="img-fluid grid" src="img/mini4.jpg" alt="4"></a>
+                        <a data-fancybox="gallery" href="img/grid6.jpg"><img class="img-fluid grid" src="img/mini6.jpg" alt="5"></a>
+                        <a data-fancybox="gallery" href="img/grid5.jpg"><img class="img-fluid grid" src="img/mini5.jpg" alt="6"></a>
+                        <a data-fancybox="gallery" href="img/grid7.jpg"><img class="img-fluid grid" src="img/mini7.jpg" alt="7" ></a>
+                    </div>
+                </div>
+                <div class="cv">
+                    <a href="https://www.flickr.com/photos/160450412@N02/" class="button2">ver más fotos</a>
+                </div>
+            </article>
+        </div>
+
+        <div>
+            <article>
+                <div>
+                    <h4 id="diseno">diseño</h4>
+                </div>
+                <div class="fotorama img-fluid">
+                    <img src="img/1.jpg" alt="1">
+                    <img src="img/2.png" alt="2">
+                    <img src="img/3.jpg" alt="3">
+                    <img src="img/4.jpg" alt="4">
+                </div>
+
+            </article>
+        </div>
+
+        <div class="fondo2">
+            <article>
+                <h4 id="video">video</h4>
+
+                <div class="video">
+                    <video class="img-fluid" width="100" height="100" controls>
+                        <source src="img/output.mp4" type="video/mp4">
+
+                    </video>
+                </div>
+
+            </article>
+        </div>
+    </section>
+
+    <section class="contacto">
+        <article>
+            <h3 class="otro" id="contacto">contacto</h3>
+            <div class="formulario">
+                <form action="/action_page.php">
+                    <fieldset>
+                        <legend>Información personal</legend>
+                        <input type="text" name="firstname" placeholder="Nombre">
+                        <input type="text" name="lastname" placeholder="Apellido">
+                        <input type="text" name="email" placeholder="Email">
+                    </fieldset>
+
+                    <fieldset>
+                        <legend>Tu mensaje</legend>
+                        <textarea name="message" rows="10" cols="30" placeholder="Escribí tu mensaje aquí">
+</textarea>
+                    </fieldset>
+                    <input type="submit" value="enviar">
+                </form>
+
+            </div>
+        </article>
+    </section>
+
+
+    <footer id="redes">
+        <h4 class="diseno2">¡seguime!</h4>
+
+        <div class="container3">
+            <a href="www.instagram.com/cami.tone"><i class="fab fa-instagram"></i></a>
+            <a href="www.twitter.com/cami_tonelli"><i class="fab fa-twitter-square"></i></a>
+            <a href="www.facebook.com/camitonelli"><i class="fab fa-facebook-square"></i></a>
+            <a href="https://www.flickr.com/photos/133823385@N04/"><i class="fab fa-flickr"></i></a>
+
+        </div>
+<p>Camila Tonelli - 2019 - Programación Visual - Trabajo Práctico 1</p>
+    </footer>
+    <script src="https://cdn.jsdelivr.net/npm/jquery@3.4.1/dist/jquery.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/gh/fancyapps/fancybox@3.5.7/dist/jquery.fancybox.min.js"></script>
+    <script src="https://kit.fontawesome.com/5b929a2679.js" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/fotorama/4.6.4/fotorama.js"></script>
+
+</body>
+
+</html>
